@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Attendance Monitor</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css" />
+  </head>
+
+  <body>
+    <div class="slider-thumb"></div>
+    <div id="header">
+      <h1>AI Attendance Monitor</h1>
+    </div>
+
+    <div id="camera-frame">
+      <img
+        id="camera-stream"
+        src="{{ url_for('video_feed') }}"
+        width="100%"
+        height="auto"
+        alt="Camera Stream"
+      />
+    </div>
+
+    <button id="mark-attendance" onclick="markAttendance()">
+      Start Server
+    </button>
+
+    <!--<div id="status">
+      <p id="status-text">Waiting for attendance...</p>
+    </div>-->
+
+    <div id="datetime"></div>
+    <footer id="copyright">&copy; 2023 Sourabh Raj</footer>
+  </body>
+  <script type="text/javascript" src="../static/script.js"></script>
+</html>

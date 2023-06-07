@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Attendance Monitor</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/style_marked_attendance.css"
+    />
+  </head>
+  <body>
+    <div class="slider-thumb"></div>
+    <div id="header">
+      <h1>AI Attendance Monitor</h1>
+    </div>
+    <div id="dat">
+      <div id="col">
+        <p>Vicinity: {{ vicinity }}</p>
+      </div>
+      <div id="col">
+        <p>CSV File: {{ csv_file }}</p>
+      </div>
+    </div>
+    <div id="datetime"></div>
+    <footer id="copyright">&copy; 2023 Sourabh Raj</footer>
+  </body>
+  <script
+    type="text/javascript"
+    src="../static/script_marked_attendance.js"
+  ></script>
+</html>
