@@ -44,4 +44,4 @@ AI Attendance Monitor is a cost-efficient AI-powered attendance monitoring syste
 ## License
 This project is licensed under the MIT License.
 
-### Feel free to copy and use this Markdown content for your README.md file, and make any necessary adjustments to match your project specifics.
+## *Feel free to copy and use this Markdown content for your README.md file, and make any necessary adjustments to match your project specifics.*
