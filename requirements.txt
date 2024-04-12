@@ -12,7 +12,7 @@ future==0.18.3
 geocoder==1.38.1
 geographiclib==2.0
 geopy==2.3.0
-idna==3.4
+idna==3.7
 itsdangerous==2.1.2
 Jinja2==3.1.2
 MarkupSafe==2.1.3
