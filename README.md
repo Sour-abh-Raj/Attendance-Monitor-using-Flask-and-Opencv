@@ -1,4 +1,4 @@
-# AI Attendance Monitor
+# Attendance Monitor using Flask and Opencv
 
 AI Attendance Monitor is a cost-efficient AI-powered attendance monitoring system developed using Python Flask. The project utilizes OpenCV-Python, Geocoder, and Geopy libraries to provide a convenient solution for attendance tracking based on face recognition and location verification.
 
